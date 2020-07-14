@@ -1,0 +1,78 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Dhurjati&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Old+Standard+TT:wght@700&display=swap');/*}*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+*/
+html{
+    scroll-behavior: smooth;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fff;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 1px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 1px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+   /* background-image: linear-gradient(0deg,#833ab4,#fd1d1d,#fcb045);
+  */  border-radius: 5px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .lyricBox{
+        font-size: 23px;
+    }
+    
+    .lyricBoxE{
+        font-size: 20px;
+    }
+
+    .welcomeDiv{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    
+    .welcomeDiv h1{
+        font-size: 25px;
+    }
+    
+    .fhclive{
+        font-size: 50px;
+    }
+
+}
+
